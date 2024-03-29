@@ -1,0 +1,942 @@
+===============================================================================
+-------------------------------------------------------------------------------
+----------------  R E L E A S E     N O T E S ---------------------------------
+-------------------------------------------------------------------------------
+PROJECT: Intel ADL_N MRD - ITE EC IT5570VG
+Copyright(c)2010-2022, ITE Tech. Inc. All rights reserved.
+===============================================================================
+-------------------------------------------------------------------------------
+Release ADL-N MRD IT5570VG EC Firmware Version : 00.29  (7z Password: 123456)
+-------------------------------------------------------------------------------
+FILENAME: [ADL_N_MRD_EC_00_29.bin], CHECKSUM: [402A321E], DATE: [2023/01/04]
+Motherboard Name: ADL-N P0/P1
+
+RELEASE NOTES:
+* N/A
+
+BUG FIXES:
+* Fix write wrong safe voltage value
+
+KNOWN ISSUES:
+* N/A
+
+SMOKE TEST:
+Power sequence	
+	[Pass] Power on from G3
+	[Pass] Power on from S5
+	[Pass] Power on with dead battery scenario
+	[Pass] Enter S4
+	[Pass] Exit S4
+	[Pass] Warm reboot
+	[Pass] shutdown by press power button in BIOS (go to S5)
+	[Pass] shutdown by long pressed power button in BIOS (>= 12s)
+Flash	
+	[Pass] Upgrade EC from EFI Shell
+	[Pass] Upgrade PD from EFI shell
+TCSS	
+	[Pass] USBC charging in S0/S4/S5 for two port
+	[N/A]  HDMI display via Apple dongle(A1621)
+	[Pass] USB drive detect via Apple dongle(A1620)
+
+ISSUE BY: Paul.Hsiao@ite.com.tw
+-------------------------------------------------------------------------------
+Release ADL-N MRD IT5570VG EC Firmware Version : 00.28  (7z Password: 123456)
+-------------------------------------------------------------------------------
+FILENAME: [ADL_N_MRD_EC_00_28.bin], CHECKSUM: [406447FB], DATE: [2023/01/03]
+Motherboard Name: ADL-N P0/P1
+
+RELEASE NOTES:
+* Add command and write safe voltage in EC eflash
+* Add PD sink control command
+* Update skin tempeture shutdown scenario
+* Update fast charge setting
+* Update low battery shutdown scenario
+* Add PWR LED blink for low battery 
+* Update BATLOW pin control
+* Update EC will read battery info in S3 and MS mode
+
+BUG FIXES:
+* N/A
+
+KNOWN ISSUES:
+* N/A
+
+SMOKE TEST:
+Power sequence	
+	[Pass] Power on from G3
+	[Pass] Power on from S5
+	[Pass] Power on with dead battery scenario
+	[Pass] Enter S4
+	[Pass] Exit S4
+	[Pass] Warm reboot
+	[Pass] shutdown by press power button in BIOS (go to S5)
+	[Pass] shutdown by long pressed power button in BIOS (>= 12s)
+Flash	
+	[Pass] Upgrade EC from EFI Shell
+	[Pass] Upgrade PD from EFI shell
+TCSS	
+	[Pass] USBC charging in S0/S4/S5 for two port
+	[N/A]  HDMI display via Apple dongle(A1621)
+	[Pass] USB drive detect via Apple dongle(A1620)
+
+ISSUE BY: Paul.Hsiao@ite.com.tw
+-------------------------------------------------------------------------------
+Release ADL-N MRD IT5570VG EC Firmware Version : 00.27  (7z Password: 123456)
+-------------------------------------------------------------------------------
+FILENAME: [ADL_N_MRD_EC_00_27.bin], CHECKSUM: [3F8D712D], DATE: [2022/11/30]
+Motherboard Name: ADL-N P0/P1
+
+RELEASE NOTES:
+* Add POGO pin status in EC space
+
+BUG FIXES:
+* N/A
+
+KNOWN ISSUES:
+* N/A
+
+SMOKE TEST:
+Power sequence	
+	[Pass] Power on from G3
+	[Pass] Power on from S5
+	[Pass] Power on with dead battery scenario
+	[Pass] Enter S4
+	[Pass] Exit S4
+	[Pass] Warm reboot
+	[Pass] shutdown by press power button in BIOS (go to S5)
+	[Pass] shutdown by long pressed power button in BIOS (>= 12s)
+Flash	
+	[Pass] Upgrade EC from EFI Shell
+	[Pass] Upgrade PD from EFI shell
+TCSS	
+	[Pass] USBC charging in S0/S4/S5 for two port
+	[N/A]  HDMI display via Apple dongle(A1621)
+	[Pass] USB drive detect via Apple dongle(A1620)
+
+ISSUE BY: Paul.Hsiao@ite.com.tw
+-------------------------------------------------------------------------------
+Release ADL-N MRD IT5570VG EC Firmware Version : 00.26  (7z Password: 123456)
+-------------------------------------------------------------------------------
+FILENAME: [ADL_N_MRD_EC_00_26.bin], CHECKSUM: [3ECF5F46], DATE: [2022/11/09]
+Motherboard Name: ADL-N P0/P1
+
+RELEASE NOTES:
+* N/A
+
+BUG FIXES:
+* Fix auto boot fail
+
+KNOWN ISSUES:
+* N/A
+
+SMOKE TEST:
+Power sequence	
+	[Pass] Power on from G3
+	[Pass] Power on from S5
+	[Pass] Power on with dead battery scenario
+	[Pass] Enter S4
+	[Pass] Exit S4
+	[Pass] Warm reboot
+	[Pass] shutdown by press power button in BIOS (go to S5)
+	[Pass] shutdown by long pressed power button in BIOS (>= 12s)
+Flash	
+	[Pass] Upgrade EC from EFI Shell
+	[Pass] Upgrade PD from EFI shell
+TCSS	
+	[Pass] USBC charging in S0/S4/S5 for two port
+	[N/A]  HDMI display via Apple dongle(A1621)
+	[Pass] USB drive detect via Apple dongle(A1620)
+
+ISSUE BY: Paul.Hsiao@ite.com.tw
+-------------------------------------------------------------------------------
+Release ADL-N MRD IT5570VG EC Firmware Version : 00.25  (7z Password: 123456)
+-------------------------------------------------------------------------------
+FILENAME: [ADL_N_MRD_EC_00_25.bin], CHECKSUM: [3F25FB59], DATE: [2022/11/01]
+Motherboard Name: ADL-N P0/P1
+
+RELEASE NOTES:
+* Update Input Current setting and set default to 2A
+* Set charge current to normal charge under 65W ADP
+
+BUG FIXES:
+* N/A
+
+KNOWN ISSUES:
+* N/A
+
+SMOKE TEST:
+Power sequence	
+	[Pass] Power on from G3
+	[Pass] Power on from S5
+	[Pass] Power on with dead battery scenario
+	[Pass] Enter S4
+	[Pass] Exit S4
+	[Pass] Warm reboot
+	[Pass] shutdown by press power button in BIOS (go to S5)
+	[Pass] shutdown by long pressed power button in BIOS (>= 12s)
+Flash	
+	[Pass] Upgrade EC from EFI Shell
+	[Pass] Upgrade PD from EFI shell
+TCSS	
+	[Pass] USBC charging in S0/S4/S5 for two port
+	[N/A]  HDMI display via Apple dongle(A1621)
+	[Pass] USB drive detect via Apple dongle(A1620)
+
+ISSUE BY: Paul.Hsiao@ite.com.tw
+-------------------------------------------------------------------------------
+Release ADL-N MRD IT5570VG EC Firmware Version : 00.24  (7z Password: 123456)
+-------------------------------------------------------------------------------
+FILENAME: [ADL_N_MRD_EC_00_24.bin], CHECKSUM: [3F505115], DATE: [2022/10/19]
+Motherboard Name: ADL-N P0/P1
+
+RELEASE NOTES:
+* Add power on process after EC update with BIOS
+
+BUG FIXES:
+* N/A
+
+KNOWN ISSUES:
+* N/A
+
+SMOKE TEST:
+Power sequence	
+	[Pass] Power on from G3
+	[Pass] Power on from S5
+	[Pass] Power on with dead battery scenario
+	[Pass] Enter S4
+	[Pass] Exit S4
+	[Pass] Warm reboot
+	[Pass] shutdown by press power button in BIOS (go to S5)
+	[Pass] shutdown by long pressed power button in BIOS (>= 12s)
+Flash	
+	[Pass] Upgrade EC from EFI Shell
+	[Pass] Upgrade PD from EFI shell
+TCSS	
+	[Pass] USBC charging in S0/S4/S5 for two port
+	[N/A]  HDMI display via Apple dongle(A1621)
+	[Pass] USB drive detect via Apple dongle(A1620)
+
+ISSUE BY: Paul.Hsiao@ite.com.tw
+-------------------------------------------------------------------------------
+Release ADL-N MRD IT5570VG EC Firmware Version : 00.23  (7z Password: 123456)
+-------------------------------------------------------------------------------
+FILENAME: [ADL_N_MRD_EC_00_23.bin], CHECKSUM: [3F929E1E], DATE: [2022/10/12]
+Motherboard Name: ADL-N P0/P1
+
+RELEASE NOTES:
+* Modify power LED back to GPIO control
+
+BUG FIXES:
+* N/A
+
+KNOWN ISSUES:
+* N/A
+
+SMOKE TEST:
+Power sequence	
+	[Pass] Power on from G3
+	[Pass] Power on from S5
+	[Pass] Power on with dead battery scenario
+	[Pass] Enter S4
+	[Pass] Exit S4
+	[Pass] Warm reboot
+	[Pass] shutdown by press power button in BIOS (go to S5)
+	[Pass] shutdown by long pressed power button in BIOS (>= 12s)
+Flash	
+	[Pass] Upgrade EC from EFI Shell
+	[Pass] Upgrade PD from EFI shell
+TCSS	
+	[Pass] USBC charging in S0/S4/S5 for two port
+	[N/A]  HDMI display via Apple dongle(A1621)
+	[Pass] USB drive detect via Apple dongle(A1620)
+
+ISSUE BY: Paul.Hsiao@ite.com.tw
+-------------------------------------------------------------------------------
+Release ADL-N MRD IT5570VG EC Firmware Version : 00.22  (7z Password: 123456)
+-------------------------------------------------------------------------------
+FILENAME: [ADL_N_MRD_EC_00_22.bin], CHECKSUM: [3F0DCE41], DATE: [2022/09/28]
+Motherboard Name: ADL-N P0/P1
+
+RELEASE NOTES:
+* Add Q87 Q88 event for dock in/out
+* Add battery current in EC space 0x94/0x95
+
+BUG FIXES:
+* N/A
+
+KNOWN ISSUES:
+* N/A
+
+SMOKE TEST:
+Power sequence	
+	[Pass] Power on from G3
+	[Pass] Power on from S5
+	[Pass] Power on with dead battery scenario
+	[Pass] Enter S4
+	[Pass] Exit S4
+	[Pass] Warm reboot
+	[Pass] shutdown by press power button in BIOS (go to S5)
+	[Pass] shutdown by long pressed power button in BIOS (>= 12s)
+Flash	
+	[Pass] Upgrade EC from EFI Shell
+	[Pass] Upgrade PD from EFI shell
+TCSS	
+	[Pass] USBC charging in S0/S4/S5 for two port
+	[N/A]  HDMI display via Apple dongle(A1621)
+	[Pass] USB drive detect via Apple dongle(A1620)
+
+ISSUE BY: Paul.Hsiao@ite.com.tw
+-------------------------------------------------------------------------------
+Release ADL-N MRD IT5570VG EC Firmware Version : 00.21  (7z Password: 123456)
+-------------------------------------------------------------------------------
+FILENAME: [ADL_N_MRD_EC_00_21.bin], CHECKSUM: [3F879D9C], DATE: [2022/09/14]
+Motherboard Name: ADL-N P0/P1
+
+RELEASE NOTES:
+* Fix power button need to press twice when power on with DC mode
+
+BUG FIXES:
+* N/A
+
+KNOWN ISSUES:
+* N/A
+
+SMOKE TEST:
+Power sequence	
+	[Pass] Power on from G3
+	[Pass] Power on from S5
+	[Pass] Power on with dead battery scenario
+	[Pass] Enter S4
+	[Pass] Exit S4
+	[Pass] Warm reboot
+	[Pass] shutdown by press power button in BIOS (go to S5)
+	[Pass] shutdown by long pressed power button in BIOS (>= 12s)
+Flash	
+	[Pass] Upgrade EC from EFI Shell
+	[Pass] Upgrade PD from EFI shell
+TCSS	
+	[Pass] USBC charging in S0/S4/S5 for two port
+	[N/A]  HDMI display via Apple dongle(A1621)
+	[Pass] USB drive detect via Apple dongle(A1620)
+
+ISSUE BY: Paul.Hsiao@ite.com.tw
+-------------------------------------------------------------------------------
+Release ADL-N MRD IT5570VG EC Firmware Version : 00.20  (7z Password: 123456)
+-------------------------------------------------------------------------------
+FILENAME: [ADL_N_MRD_EC_00_20.bin], CHECKSUM: [3EE2D34A], DATE: [2022/09/07]
+Motherboard Name: ADL-N P0/P1
+
+RELEASE NOTES:
+* Add blink LED for SOC/Skin over temperature shutdown
+* Fix cannot power on after force shutdown with AC mode
+* Pull up RSMRST from G3 to S5
+
+BUG FIXES:
+* N/A
+
+KNOWN ISSUES:
+* N/A
+
+SMOKE TEST:
+Power sequence	
+	[Pass] Power on from G3
+	[Pass] Power on from S5
+	[Pass] Power on with dead battery scenario
+	[Pass] Enter S4
+	[Pass] Exit S4
+	[Pass] Warm reboot
+	[Pass] shutdown by press power button in BIOS (go to S5)
+	[Pass] shutdown by long pressed power button in BIOS (>= 12s)
+Flash	
+	[Pass] Upgrade EC from EFI Shell
+	[Pass] Upgrade PD from EFI shell
+TCSS	
+	[Pass] USBC charging in S0/S4/S5 for two port
+	[N/A]  HDMI display via Apple dongle(A1621)
+	[Pass] USB drive detect via Apple dongle(A1620)
+
+ISSUE BY: Paul.Hsiao@ite.com.tw
+-------------------------------------------------------------------------------
+Release ADL-N MRD IT5570VG EC Firmware Version : 00.19  (7z Password: 123456)
+-------------------------------------------------------------------------------
+FILENAME: [ADL_N_MRD_EC_00_19.bin], CHECKSUM: [3F84FF22], DATE: [2022/08/31]
+Motherboard Name: ADL-N P0/P1
+
+RELEASE NOTES:
+* Add Q77 event for release SAR sensor
+* Add EC_STATE pin control
+* Add SOC/Skin over temperature shutdown
+
+BUG FIXES:
+* N/A
+
+KNOWN ISSUES:
+* N/A
+
+SMOKE TEST:
+Power sequence	
+	[Pass] Power on from G3
+	[Pass] Power on from S5
+	[Pass] Power on with dead battery scenario
+	[Pass] Enter S4
+	[Pass] Exit S4
+	[Pass] Warm reboot
+	[Pass] shutdown by press power button in BIOS (go to S5)
+	[Pass] shutdown by long pressed power button in BIOS (>= 12s)
+Flash	
+	[Pass] Upgrade EC from EFI Shell
+	[Pass] Upgrade PD from EFI shell
+TCSS	
+	[Pass] USBC charging in S0/S4/S5 for two port
+	[N/A]  HDMI display via Apple dongle(A1621)
+	[Pass] USB drive detect via Apple dongle(A1620)
+
+ISSUE BY: Paul.Hsiao@ite.com.tw
+-------------------------------------------------------------------------------
+Release ADL-N MRD IT5570VG EC Firmware Version : 00.18  (7z Password: 123456)
+-------------------------------------------------------------------------------
+FILENAME: [ADL_N_MRD_EC_00_18.bin], CHECKSUM: [3EE08284], DATE: [2022/08/24]
+Motherboard Name: ADL-N P0/P1
+
+RELEASE NOTES:
+* Optimize EC power saving in S5 AC mode
+* Modify power LED will blink when power on
+* Change to read battery voltage priority in battery polling table
+* Disable UCSI UART debug
+
+BUG FIXES:
+* N/A
+
+KNOWN ISSUES:
+* N/A
+
+SMOKE TEST:
+Power sequence	
+	[Pass] Power on from G3
+	[Pass] Power on from S5
+	[Pass] Power on with dead battery scenario
+	[Pass] Enter S4
+	[Pass] Exit S4
+	[Pass] Warm reboot
+	[Pass] shutdown by press power button in BIOS (go to S5)
+	[Pass] shutdown by long pressed power button in BIOS (>= 12s)
+Flash	
+	[Pass] Upgrade EC from EFI Shell
+	[Pass] Upgrade PD from EFI shell
+TCSS	
+	[Pass] USBC charging in S0/S4/S5 for two port
+	[N/A]  HDMI display via Apple dongle(A1621)
+	[Pass] USB drive detect via Apple dongle(A1620)
+
+ISSUE BY: Paul.Hsiao@ite.com.tw
+-------------------------------------------------------------------------------
+Release ADL-N MRD IT5570VG EC Firmware Version : 00.17  (7z Password: 123456)
+-------------------------------------------------------------------------------
+FILENAME: [ADL_N_MRD_EC_00_17.bin], CHECKSUM: [3FAD0422], DATE: [2022/08/17]
+Motherboard Name: ADL-N P0/P1
+
+RELEASE NOTES:
+* Optimize EC GPIO leakage from G3 to S5.
+* Optimize EC power saving in S5 AC mode
+
+BUG FIXES:
+* Fix HLK "USB Type-C UCM Data Role Swap" fail test case
+
+KNOWN ISSUES:
+* N/A
+
+SMOKE TEST:
+Power sequence	
+	[Pass] Power on from G3
+	[Pass] Power on from S5
+	[Pass] Power on with dead battery scenario
+	[Pass] Enter S4
+	[Pass] Exit S4
+	[Pass] Warm reboot
+	[Pass] shutdown by press power button in BIOS (go to S5)
+	[Pass] shutdown by long pressed power button in BIOS (>= 12s)
+Flash	
+	[Pass] Upgrade EC from EFI Shell
+	[Pass] Upgrade PD from EFI shell
+TCSS	
+	[Pass] USBC charging in S0/S4/S5 for two port
+	[N/A]  HDMI display via Apple dongle(A1621)
+	[Pass] USB drive detect via Apple dongle(A1620)
+
+ISSUE BY: Paul.Hsiao@ite.com.tw
+-------------------------------------------------------------------------------
+Release ADL-N MRD IT5570VG EC Firmware Version : 00.16  (7z Password: 123456)
+-------------------------------------------------------------------------------
+FILENAME: [ADL_N_MRD_EC_00_16.bin], CHECKSUM: [3FE7EAA6], DATE: [2022/08/10]
+Motherboard Name: ADL-N P0/P1
+
+RELEASE NOTES:
+* Change battery voltage for pnp version
+* Enable power saving in modern standby mode
+
+BUG FIXES:
+* N/A
+
+KNOWN ISSUES:
+* N/A
+
+SMOKE TEST:
+Power sequence	
+	[Pass] Power on from G3
+	[Pass] Power on from S5
+	[Pass] Power on with dead battery scenario
+	[Pass] Enter S4
+	[Pass] Exit S4
+	[Pass] Warm reboot
+	[Pass] shutdown by press power button in BIOS (go to S5)
+	[Pass] shutdown by long pressed power button in BIOS (>= 12s)
+Flash	
+	[Pass] Upgrade EC from EFI Shell
+	[Pass] Upgrade PD from EFI shell
+TCSS	
+	[Pass] USBC charging in S0/S4/S5 for two port
+	[N/A]  HDMI display via Apple dongle(A1621)
+	[Pass] USB drive detect via Apple dongle(A1620)
+
+ISSUE BY: Paul.Hsiao@ite.com.tw
+-------------------------------------------------------------------------------
+Release ADL-N MRD IT5570VG EC Firmware Version : 00.15  (7z Password: 123456)
+-------------------------------------------------------------------------------
+FILENAME: [ADL_N_MRD_EC_00_15.bin], CHECKSUM: [3F43E787], DATE: [2022/08/03]
+Motherboard Name: ADL-N P0/P1
+
+RELEASE NOTES:
+* Optimize EC code
+* Enable to read OOB PCH temp, RTC time, CPU temp.
+
+BUG FIXES:
+* N/A
+
+KNOWN ISSUES:
+* N/A
+
+SMOKE TEST:
+Power sequence	
+	[Pass] Power on from G3
+	[Pass] Power on from S5
+	[Pass] Power on with dead battery scenario
+	[Pass] Enter S4
+	[Pass] Exit S4
+	[Pass] Warm reboot
+	[Pass] shutdown by press power button in BIOS (go to S5)
+	[Pass] shutdown by long pressed power button in BIOS (>= 12s)
+Flash	
+	[Pass] Upgrade EC from EFI Shell
+	[Pass] Upgrade PD from EFI shell
+TCSS	
+	[Pass] USBC charging in S0/S4/S5 for two port
+	[N/A]  HDMI display via Apple dongle(A1621)
+	[Pass] USB drive detect via Apple dongle(A1620)
+
+ISSUE BY: Paul.Hsiao@ite.com.tw
+-------------------------------------------------------------------------------
+Release ADL-N MRD IT5570VG EC Firmware Version : 00.14  (7z Password: 123456)
+-------------------------------------------------------------------------------
+FILENAME: [ADL_N_MRD_EC_00_14.bin], CHECKSUM: [3E98FF0D], DATE: [2022/07/27]
+Motherboard Name: ADL-N P0/P1
+
+RELEASE NOTES:
+* Update UCSI process
+* Update auto boot feature
+* Support to control V5A_POGO_EN pin
+
+BUG FIXES:
+* N/A
+
+KNOWN ISSUES:
+* N/A
+
+SMOKE TEST:
+Power sequence	
+	[Pass] Power on from G3
+	[Pass] Power on from S5
+	[Pass] Power on with dead battery scenario
+	[Pass] Enter S4
+	[Pass] Exit S4
+	[Pass] Warm reboot
+	[Pass] shutdown by press power button in BIOS (go to S5)
+	[Pass] shutdown by long pressed power button in BIOS (>= 12s)
+Flash	
+	[Pass] Upgrade EC from EFI Shell
+	[Pass] Upgrade PD from EFI shell
+TCSS	
+	[Pass] USBC charging in S0/S4/S5 for two port
+	[N/A]  HDMI display via Apple dongle(A1621)
+	[Pass] USB drive detect via Apple dongle(A1620)
+
+ISSUE BY: Paul.Hsiao@ite.com.tw
+-------------------------------------------------------------------------------
+Release ADL-N MRD IT5570VG EC Firmware Version : 00.13  (7z Password: 123456)
+-------------------------------------------------------------------------------
+FILENAME: [ADL_N_MRD_EC_00_13.bin], CHECKSUM: [3F20193A], DATE: [2022/07/20]
+Motherboard Name: ADL-N P0/P1
+
+RELEASE NOTES:
+* Update UCSI process
+* Update boot flash PD process
+* Update and enable fast charge feature
+* Add system cannot power on under low battery voltage
+* Support EC can access 32M SPI ROM
+
+BUG FIXES:
+* N/A
+
+KNOWN ISSUES:
+* N/A
+
+SMOKE TEST:
+Power sequence	
+	[Pass] Power on from G3
+	[Pass] Power on from S5
+	[Pass] Power on with dead battery scenario
+	[Pass] Enter S4
+	[Pass] Exit S4
+	[Pass] Warm reboot
+	[Pass] shutdown by press power button in BIOS (go to S5)
+	[Pass] shutdown by long pressed power button in BIOS (>= 12s)
+Flash	
+	[Pass] Upgrade EC from EFI Shell
+	[Pass] Upgrade PD from EFI shell
+TCSS	
+	[Pass] USBC charging in S0/S4/S5 for two port
+	[N/A]  HDMI display via Apple dongle(A1621)
+	[Pass] USB drive detect via Apple dongle(A1620)
+
+ISSUE BY: Paul.Hsiao@ite.com.tw
+-------------------------------------------------------------------------------
+Release ADL-N MRD IT5570VG EC Firmware Version : 00.12  (7z Password: 123456)
+-------------------------------------------------------------------------------
+FILENAME: [ADL_N_MRD_EC_00_12.bin], CHECKSUM: [3E722EAA], DATE: [2022/07/13]
+Motherboard Name: ADL-N P0
+
+RELEASE NOTES:
+* Update UCSI process for PD port2
+* Add AMP_EN workaround during warm boot
+
+BUG FIXES:
+* N/A
+
+KNOWN ISSUES:
+* N/A
+
+SMOKE TEST:
+Power sequence	
+	[Pass] Power on from G3
+	[Pass] Power on from S5
+	[Pass] Power on with dead battery scenario
+	[Pass] Enter S4
+	[Pass] Exit S4
+	[Pass] Warm reboot
+	[Pass] shutdown by press power button in BIOS (go to S5)
+	[Pass] shutdown by long pressed power button in BIOS (>= 12s)
+Flash	
+	[Pass] Upgrade EC from EFI Shell
+	[Pass] Upgrade PD from EFI shell
+TCSS	
+	[Pass] USBC charging in S0/S4/S5 for two port
+	[N/A]  HDMI display via Apple dongle(A1621)
+	[Pass] USB drive detect via Apple dongle(A1620)
+
+ISSUE BY: Paul.Hsiao@ite.com.tw
+-------------------------------------------------------------------------------
+Release ADL-N MRD IT5570VG EC Firmware Version : 00.11  (7z Password: 123456)
+-------------------------------------------------------------------------------
+FILENAME: [ADL_N_MRD_EC_00_11.bin], CHECKSUM: [3D988B2B], DATE: [2022/07/06]
+Motherboard Name: ADL-N P0
+
+RELEASE NOTES:
+* Modify Power LED behavior in S3/MS mode.
+* Add PD Enter Retimer FW Update command and Enter/Exit Compliance mode command
+
+BUG FIXES:
+* N/A
+
+KNOWN ISSUES:
+* N/A
+
+SMOKE TEST:
+Power sequence	
+	[Pass] Power on from G3
+	[Pass] Power on from S5
+	[Cannot boot to OS] Power on with dead battery scenario
+	[Pass] Enter S4
+	[Pass] Exit S4
+	[Pass] Warm reboot
+	[Pass] shutdown by press power button in BIOS (go to S5)
+	[Pass] shutdown by long pressed power button in BIOS (>= 12s)
+Flash	
+	[Pass] Upgrade EC from EFI Shell
+	[Pass] Upgrade PD from EFI shell
+TCSS	
+	[Pass] USBC charging in S0/S4/S5 for two port
+	[N/A]  HDMI display via Apple dongle(A1621)
+	[Pass] USB drive detect via Apple dongle(A1620)
+
+ISSUE BY: Paul.Hsiao@ite.com.tw
+-------------------------------------------------------------------------------
+Release ADL-N MRD IT5570VG EC Firmware Version : 00.10  (7z Password: 123456)
+-------------------------------------------------------------------------------
+FILENAME: [ADL_N_MRD_EC_00_10.bin], CHECKSUM: [3CA9D167], DATE: [2022/06/29]
+Motherboard Name: ADL-N P0
+
+RELEASE NOTES:
+* Update PD UCSI process
+
+BUG FIXES:
+* N/A
+
+KNOWN ISSUES:
+* N/A
+
+SMOKE TEST:
+1. power on/off for enter shell w/ adaptor  (Pass / Total test): 5/5
+2. power on/off for enter shell w/o adaptor (Pass / Total test): 5/5
+
+ISSUE BY: Paul.Hsiao@ite.com.tw
+-------------------------------------------------------------------------------
+Release ADL-N MRD IT5570VG EC Firmware Version : 00.11  (7z Password: 123456)
+-------------------------------------------------------------------------------
+FILENAME: [ADL_N_MRD_EC_00_10.bin], CHECKSUM: [3CA9D167], DATE: [2022/06/29]
+Motherboard Name: ADL-N P0
+
+RELEASE NOTES:
+* Update PD UCSI process
+
+BUG FIXES:
+* N/A
+
+KNOWN ISSUES:
+* N/A
+
+SMOKE TEST:
+1. power on/off for enter shell w/ adaptor  (Pass / Total test): 5/5
+2. power on/off for enter shell w/o adaptor (Pass / Total test): 5/5
+
+ISSUE BY: Paul.Hsiao@ite.com.tw
+-------------------------------------------------------------------------------
+Release ADL-N MRD IT5570VG EC Firmware Version : 00.09  (7z Password: 123456)
+-------------------------------------------------------------------------------
+FILENAME: [ADL_N_MRD_EC_00_09.bin], CHECKSUM: [3CA18A57], DATE: [2022/06/22]
+Motherboard Name: ADL-N P0
+
+RELEASE NOTES:
+* Modify PDFW update process read version and support "ItePdUpdateMrd v010"
+* Update Pnp EC version to v09TFF
+
+BUG FIXES:
+* Fix Battery Manufacturer Data overlap in EC RAM
+
+KNOWN ISSUES:
+* N/A
+
+SMOKE TEST:
+1. power on/off for enter shell w/ adaptor  (Pass / Total test): 5/5
+2. power on/off for enter shell w/o adaptor (Pass / Total test): 5/5
+
+ISSUE BY: Paul.Hsiao@ite.com.tw
+-------------------------------------------------------------------------------
+Release ADL-N MRD IT5570VG EC Firmware Version : 00.08  (7z Password: 123456)
+-------------------------------------------------------------------------------
+FILENAME: [ADL_N_MRD_EC_00_08.bin], CHECKSUM: [3C831718], DATE: [2022/06/15]
+Motherboard Name: ADL-N P0
+
+RELEASE NOTES:
+* Update fast charge process
+
+BUG FIXES:
+* N/A
+
+KNOWN ISSUES:
+* N/A
+
+SMOKE TEST:
+1. power on/off for enter shell w/ adaptor  (Pass / Total test): 5/5
+2. power on/off for enter shell w/o adaptor (Pass / Total test): 5/5
+
+ISSUE BY: Paul.Hsiao@ite.com.tw
+-------------------------------------------------------------------------------
+Release ADL-N MRD IT5570VG EC Firmware Version : 00.07  (7z Password: 123456)
+-------------------------------------------------------------------------------
+FILENAME: [ADL_N_MRD_EC_00_07.bin], CHECKSUM: [3CDB5A81], DATE: [2022/06/08]
+Motherboard Name: ADL-N P0
+
+RELEASE NOTES:
+* Inform system status to PD
+
+BUG FIXES:
+* N/A
+
+KNOWN ISSUES:
+* N/A
+
+ISSUE BY: Paul.Hsiao@ite.com.tw
+-------------------------------------------------------------------------------
+Release ADL-N MRD IT5570VG EC Firmware Version : 00.06  (7z Password: 123456)
+-------------------------------------------------------------------------------
+FILENAME: [ADL_N_MRD_EC_00_06.bin], CHECKSUM: [3BD7A6D5], DATE: [2022/06/01]
+Motherboard Name: ADL-N P0
+
+RELEASE NOTES:
+* Remove some PECI unused code
+
+BUG FIXES:
+* Fix Charing LED is off when system power off first time
+
+KNOWN ISSUES:
+* N/A
+
+ISSUE BY: Paul.Hsiao@ite.com.tw
+-------------------------------------------------------------------------------
+Release ADL-N MRD IT5570VG EC Firmware Version : 00.05  (7z Password: 123456)
+-------------------------------------------------------------------------------
+FILENAME: [ADL_N_MRD_EC_00_05.bin], CHECKSUM: [3C57BE61], DATE: [2022/05/25]
+Motherboard Name: ADL-N P0
+
+RELEASE NOTES:
+* Change PWR_LED to PWM LED and adjust the brightness
+* Set PD I2C address at the EC initial
+
+BUG FIXES:
+* N/A
+
+KNOWN ISSUES:
+* N/A
+
+ISSUE BY: Paul.Hsiao@ite.com.tw
+-------------------------------------------------------------------------------
+Release ADL-N MRD IT5570VG EC Firmware Version : 00.04  (7z Password: 123456)
+-------------------------------------------------------------------------------
+FILENAME: [ADL_N_MRD_EC_00_04.bin], CHECKSUM: [3C53C4EA], DATE: [2022/05/18]
+Motherboard Name: ADL-N P0
+
+RELEASE NOTES:
+* Add ITE Winflash PD FW tool command 0xCB
+* Add back power button shutdown 
+* Add read PD version after flashing PD FW
+
+BUG FIXES:
+* N/A
+
+KNOWN ISSUES:
+* N/A
+
+ISSUE BY: Paul.Hsiao@ite.com.tw
+-------------------------------------------------------------------------------
+Release ADL-N MRD IT5570VG EC Firmware Version : 00.03  (7z Password: 123456)
+-------------------------------------------------------------------------------
+FILENAME: [ADL_N_MRD_EC_00_03.bin], CHECKSUM: [3C07E373], DATE: [2022/05/11]
+Motherboard Name: ADL-N P0
+
+RELEASE NOTES:
+* Support UCSI
+* Support to read 100W typec adp 
+* Add Power LED breath in CS mode
+BUG FIXES:
+* N/A
+
+KNOWN ISSUES:
+* N/A
+
+ISSUE BY: Paul.Hsiao@ite.com.tw
+-------------------------------------------------------------------------------
+Release ADL-N MRD IT5570VG EC Firmware Version : 00.02  (7z Password: 123456)
+-------------------------------------------------------------------------------
+FILENAME: [ADL_N_MRD_EC_00_02.bin], CHECKSUM: [3B576FDB], DATE: [2022/05/04]
+Motherboard Name: ADL-N P0
+
+RELEASE NOTES:
+* Add Volume Up/Dn button function
+* Modify EC can detect Type-C Adaptor Current, Voltage, Watt.
+ 
+BUG FIXES:
+* N/A
+
+KNOWN ISSUES:
+* N/A
+
+ISSUE BY: Paul.Hsiao@ite.com.tw
+-------------------------------------------------------------------------------
+Release ADL-N MRD IT5570VG EC Firmware Version : 00.01  (7z Password: 123456)
+-------------------------------------------------------------------------------
+FILENAME: [ADL_N_MRD_EC_00_01.bin], CHECKSUM: [3AA0F7C1], DATE: [2022/04/27]
+Motherboard Name: ADL-N P0
+
+RELEASE NOTES:
+* Add SAR sensor event trigger
+* Add PD version in EC RAM
+* Modify PDFW update process and support "ItePdUpdateMrd v007"
+ 
+BUG FIXES:
+* N/A
+
+KNOWN ISSUES:
+* N/A
+
+ISSUE BY: Paul.Hsiao@ite.com.tw
+-------------------------------------------------------------------------------
+Release ADL-N MRD IT5570VG EC Firmware Version : 00.00T17  (7z Password: 123456)
+-------------------------------------------------------------------------------
+FILENAME: [ADL_N_MRD_EC_00_00T17.bin], CHECKSUM: [3A9F8B20], DATE: [2022/04/08]
+Motherboard Name: ADL-N P0
+
+RELEASE NOTES:
+* Update IT8856 PD FW Update Process
+	
+BUG FIXES:
+* N/A
+
+KNOWN ISSUES:
+* N/A
+
+ISSUE BY: Paul.Hsiao@ite.com.tw
+-------------------------------------------------------------------------------
+Release ADL-N MRD IT5570VG EC Firmware Version : 00.00T16  (7z Password: 123456)
+-------------------------------------------------------------------------------
+FILENAME: [ADL_N_MRD_EC_00_00T16.bin], CHECKSUM: [3A43DF10], DATE: [2022/04/08]
+Motherboard Name: ADL-N P0
+
+RELEASE NOTES:
+* Modify power sequence the same as ADL-P MRD. 
+* Update charge voltage to 13.2V for charging 3 cell battery
+* Disable key scan for sending unknown scan code
+* Adjust LED_CHG, LED_CHG_FULL for leakage
+* Set V5A_POGO_EN high in S0
+* Add fake battery support
+	
+BUG FIXES:
+* N/A
+
+KNOWN ISSUES:
+* N/A
+
+ISSUE BY: Paul.Hsiao@ite.com.tw
+-------------------------------------------------------------------------------
+Release ADL-N MRD IT5570VG EC Firmware Version : 00.00T1  (7z Password: 123456)
+-------------------------------------------------------------------------------
+FILENAME: [ADL_N_MRD_EC_00_00T1.bin], CHECKSUM: [3B413B08], DATE: [2022/03/18]
+Motherboard Name: ADL-N P0
+
+RELEASE NOTES:
+* Codebase build from: it557x_ADL_P-ec-v0.20
+* Bring up version for first power on.
+  (1) Update GPIO
+  (2) Update power button behavior from JSL MRD
+  (3) Update LED behavior from JSL MRD
+  (4) Add ITE PD related code
+  (5) Add SAR sensor related code
+  (6) Add NXP power switch related code
+  (7) Update power sequence
+	
+BUG FIXES:
+* N/A
+
+KNOWN ISSUES:
+* N/A
+
+ISSUE BY: Paul.Hsiao@ite.com.tw
+-------------------------------------------------------------------------------
